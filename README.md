@@ -3,8 +3,8 @@
 ```markdown
 # Cloud Portfolio Project
 
-**Student:** Vanshi Patel (002057295)  
-**Course:** CSYE 6225 - Network Structures & Cloud Computing, Northeastern University  
+Student: Vanshi Patel (002057295)  
+Course: CSYE 6225 - Network Structures & Cloud Computing, Northeastern University  
 
 This portfolio combines 3 major cloud projects demonstrating hands-on experience with **AWS, Terraform, FastAPI, Lambda, CI/CD, and serverless architecture**.
 
@@ -14,9 +14,9 @@ This portfolio combines 3 major cloud projects demonstrating hands-on experience
 
 This project consists of **three integrated components**:
 
-1. **Web Application** – Full-stack REST API with FastAPI  
-2. **Terraform AWS Infrastructure** – Automated cloud setup  
-3. **Serverless Email Verification** – Lambda-based user email verification system  
+1. Web Application – Full-stack REST API with FastAPI  
+2. Terraform AWS Infrastructure – Automated cloud setup  
+3. Serverless Email Verification – Lambda-based user email verification system  
 
 Each component is in its own repository but linked here for a unified overview.
 
@@ -44,17 +44,17 @@ User → API → SNS → Lambda → DynamoDB
 
 ````
 
-- **Webapp** handles user/product APIs
-- **Serverless** ensures email verification
-- **Terraform** automates infrastructure setup and security
+- Webapp handles user/product APIs
+- Serverless ensures email verification
+- Terraform automates infrastructure setup and security
 
 ---
 
 ## Key Features
 
-- Full **CI/CD pipeline** for Webapp and Lambda functions
+- Full CI/CD pipeline for Webapp and Lambda functions
 - Auto-scaling EC2 instances with health checks
-- Encrypted storage using **KMS** and Secrets Manager
+- Encrypted storage using KMS and Secrets Manager
 - FastAPI backend with SQLAlchemy & PostgreSQL
 - SNS + Lambda serverless email verification
 - GitHub Actions automated deployments
@@ -92,15 +92,15 @@ terraform apply
 
 ## Deployment & CI/CD
 
-* **Webapp:** Merges to `main` branch trigger GitHub Actions to build AMI, update ASG, and deploy to AWS.
-* **Serverless:** Pushes trigger Lambda packaging and deployment to DEV & DEMO AWS accounts.
-* **Terraform:** Validated on PRs, enforces `terraform fmt` and `terraform validate`.
+* Webapp: Merges to `main` branch trigger GitHub Actions to build AMI, update ASG, and deploy to AWS.
+* Serverless: Pushes trigger Lambda packaging and deployment to DEV & DEMO AWS accounts.
+* Terraform: Validated on PRs, enforces `terraform fmt` and `terraform validate`.
 
 ---
 
 ## Security & Best Practices
 
-* Secrets stored in **AWS Secrets Manager**
+* Secrets stored in AWS Secrets Manager
 * KMS encryption for RDS, DynamoDB, S3, and Lambda
 * HTTPS-only access in production
 * Least-privilege IAM roles
@@ -120,12 +120,12 @@ terraform apply
 
 ## Tech Stack
 
-* **Backend:** FastAPI, SQLAlchemy, Bcrypt
-* **Database:** PostgreSQL, DynamoDB
-* **Infrastructure:** Terraform, Packer, AWS (EC2, RDS, Lambda, S3, SNS, CloudWatch, ALB)
-* **Serverless:** Lambda, SNS, DynamoDB
-* **CI/CD:** GitHub Actions
-* **Email Service:** SendGrid
+* Backend: FastAPI, SQLAlchemy, Bcrypt
+* Database: PostgreSQL, DynamoDB
+* Infrastructure: Terraform, Packer, AWS (EC2, RDS, Lambda, S3, SNS, CloudWatch, ALB)
+* Serverless: Lambda, SNS, DynamoDB
+* CI/CD: GitHub Actions
+* Email Service: SendGrid
 
 
 
