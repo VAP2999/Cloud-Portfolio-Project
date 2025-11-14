@@ -12,7 +12,7 @@ This portfolio combines 3 major cloud projects demonstrating hands-on experience
 
 ## Project Overview
 
-This project consists of **three integrated components**:
+This project consists of three integrated components:
 
 1. Web Application – Full-stack REST API with FastAPI  
 2. Terraform AWS Infrastructure – Automated cloud setup  
