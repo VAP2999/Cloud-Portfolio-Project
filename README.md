@@ -6,7 +6,7 @@
 Student: Vanshi Patel (002057295)  
 Course: CSYE 6225 - Network Structures & Cloud Computing, Northeastern University  
 
-This portfolio combines 3 major cloud projects demonstrating hands-on experience with **AWS, Terraform, FastAPI, Lambda, CI/CD, and serverless architecture**.
+This portfolio combines 3 major cloud projects demonstrating hands-on experience with AWS, Terraform, FastAPI, Lambda, CI/CD, and serverless architecture.
 
 ---
 
